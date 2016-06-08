@@ -81,9 +81,6 @@ If you dont want to install it into the sublime python, you can just drop the py
             "name":"module virtualenv",
             "working_dir": "${project_path}",
             "shell" : true,
-            "env" : {
-                "PYTHONPATH" : "/Users/evansde77/Documents/cirrus:/Users/evansde77/Documents/cirrus/src"
-            },
             "cmd":
             [
                 ". ${project_path}/venv/bin/activate && ${project_path}/venv/bin/python -m `pyfile_to_module -w $file`"
