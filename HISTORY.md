@@ -1,6 +1,16 @@
 
 CIRRUS_UPDATE_SENTINEL
 
+Release: 0.0.3 Created: 2016-06-08T17:51:46.417322
+ - Commit History:
+ -- Author: Dave Evans
+ --- 2016-06-08T17:51:17+00:00: fixup console scripts entry
+
+ --- 2016-06-08T17:48:17+00:00: fix packages dir
+
+ --- 2016-06-08T17:37:57+00:00: Merge branch 'release/0.0.2' into develop
+
+
 Release: 0.0.2 Created: 2016-06-08T17:37:36.055814
  - Commit History:
  -- Author: Dave Evans
