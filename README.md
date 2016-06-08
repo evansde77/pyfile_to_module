@@ -1,9 +1,16 @@
 # pyfile_to_module
-Util for converting path filenames of python files into the appropriate python module name to assist with build systems
+Util for converting path filenames of python files into the appropriate python module name to assist with build systems. 
+
+Functions a a CLI tool for converting path names to module names in a couple of different ways:
+  * Straight swap of path names for periods and removing .py
+  * Swap with optional prefix to remove leading path from filename
+  * More intelligent python path walk to find best match for the module name and automatically strip off leading path names
 
 ## Installation via pip 
 
-TBD
+```bash
+pip install pyfile_to_module
+```
 
 ## Installation from source repo
 
