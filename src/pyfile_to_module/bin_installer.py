@@ -35,7 +35,7 @@ def main():
     """
     opts = build_parser()
 
-    loc = os.path.expandvars(os.path.expandhome(opts.location))
+    loc = os.path.expandvars(os.path.expanduser(opts.location))
     if not os.path.exists(loc):
         try:
             os.makedirs(loc)
